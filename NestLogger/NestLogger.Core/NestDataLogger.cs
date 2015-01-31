@@ -54,12 +54,18 @@ namespace NestLogger.Core
             double currentTemp = firstShared.current_temperature;
             double targetTemp = firstShared.target_temperature;
 
+            int autoAway = firstShared.auto_away;
+            bool heatState = firstShared.hvac_heater_state == "true"; 
+
+            Console.WriteLine(heatState);
 
             var readings = new DeviceReadings()
                          {
                              CurrentHumidity = currentHumidity,
                              CurrentTemp = currentTemp,
-                             TargetTemp = targetTemp
+                             TargetTemp = targetTemp,
+                             AutoAway = autoAway,
+                             HeatState = heatState, 
                          };
 
             return readings;
