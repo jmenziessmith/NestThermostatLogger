@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestLogger.BackgroundWorker", "NestLogger.BackgroundWorker\NestLogger.BackgroundWorker.csproj", "{4C0F75A3-C4A8-4F6C-B631-8C87D9F1FEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestLogger.Core", "NestLogger.Core\NestLogger.Core.csproj", "{7E5662DA-AE71-4000-8C62-4B823233FB7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F7AC2581-FB01-44D1-9355-C01A7189D4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestSharp.Core", "NestSharp.Core\NestSharp.Core.csproj", "{FE8F87D6-C984-4A96-9FA5-9F376A0D8967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsMix", "StatsMix\StatsMix.csproj", "{8409B23F-18DB-4008-9AD1-B083C2B00E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedGraphite", "HostedGraphite\HostedGraphite.csproj", "{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C0F75A3-C4A8-4F6C-B631-8C87D9F1FEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0F75A3-C4A8-4F6C-B631-8C87D9F1FEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0F75A3-C4A8-4F6C-B631-8C87D9F1FEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0F75A3-C4A8-4F6C-B631-8C87D9F1FEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5662DA-AE71-4000-8C62-4B823233FB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5662DA-AE71-4000-8C62-4B823233FB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5662DA-AE71-4000-8C62-4B823233FB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5662DA-AE71-4000-8C62-4B823233FB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8F87D6-C984-4A96-9FA5-9F376A0D8967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8F87D6-C984-4A96-9FA5-9F376A0D8967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8F87D6-C984-4A96-9FA5-9F376A0D8967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8F87D6-C984-4A96-9FA5-9F376A0D8967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8409B23F-18DB-4008-9AD1-B083C2B00E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8409B23F-18DB-4008-9AD1-B083C2B00E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8409B23F-18DB-4008-9AD1-B083C2B00E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8409B23F-18DB-4008-9AD1-B083C2B00E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE8F87D6-C984-4A96-9FA5-9F376A0D8967} = {F7AC2581-FB01-44D1-9355-C01A7189D4E9}
+		{8409B23F-18DB-4008-9AD1-B083C2B00E79} = {F7AC2581-FB01-44D1-9355-C01A7189D4E9}
+		{E3BF5F0B-4ACF-4978-A88E-1A17AC3E8F93} = {F7AC2581-FB01-44D1-9355-C01A7189D4E9}
+	EndGlobalSection
+EndGlobal

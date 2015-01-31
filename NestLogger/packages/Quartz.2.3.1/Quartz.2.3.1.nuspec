@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Quartz</id>
+    <version>2.3.1</version>
+    <title>Quartz.NET</title>
+    <authors>Marko Lahma</authors>
+    <owners>Marko Lahma</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://www.quartz-scheduler.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Quartz.NET Scheduling Framework for .NET Platform</description>
+    <releaseNotes>This is a bug fix release with upgraded Common.Logging dependency, also problems running
+under .NET 4.0 should now be finally fixed.
+
+NEW FEATURE
+
+* Upgrade to Common.Logging 3.0.0
+
+FIXES
+
+* JobDetailImpl members should be virtual
+* Triggers do not transition to error state in AdoJobStore when job retrieval fails during trigger acquisition
+* Quartz.Server.exe.config refers to wrong Common.Logging.Log4Net assembly
+* Incorrect NextFireTime when 'schedule-trigger-relative-to-replaced-trigger' = 'true'
+* Could not load type 'System.Runtime.CompilerServices.ExtensionAttribute' from assembly mscorlib
+* TriggerBuilder.UsingJobData(JobDataMap newJobDataMap) should ovewrite existing data</releaseNotes>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Common.Logging" version="3.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StatsMix</id>
+    <version>1.0.0.2</version>
+    <title>StatsMix</title>
+    <authors>Chris McClaskey</authors>
+    <owners>mcclaskc</owners>
+    <iconUrl>http://www.statsmix.com/statsmix_icon_black_64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>StatsMix API Client.  StatsMix makes it easy to track, chart, and share application and business metrics. View the documentation at http://www.statsmix.com/developers/csharp_nuget and the source at https://github.com/mcclaskc/statsmix_nuget.</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>stat tracking statsmix api custom business metrics dashboards</tags>
+  </metadata>
+</package>
